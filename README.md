@@ -1,0 +1,1 @@
+This repository demonstrates a common C++ error: attempting to use `delete` on a variable that wasn't allocated with `new`.  The `bug.cpp` file contains the erroneous code, while `bugSolution.cpp` provides the corrected version.  The error results in undefined behavior and potential crashes.
