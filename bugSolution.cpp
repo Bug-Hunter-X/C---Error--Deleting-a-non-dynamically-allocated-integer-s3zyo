@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = new int(10); // Dynamically allocate an integer *ptr = 10; // Assign value to dynamically allocated integer delete ptr; ptr = nullptr; //Prevent dangling pointers return 0; }
